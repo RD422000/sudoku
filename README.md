@@ -1,5 +1,5 @@
 # sudoku with backtracking algorithm
-Explanation:
+### Explanation:
 print_board(board):
 Prints the Sudoku board. Zeros are replaced with dots for better readability.
 <br> <br> 
