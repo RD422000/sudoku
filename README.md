@@ -1,4 +1,4 @@
-# sudoku
+# sudoku with backtracking algorithm
 Explanation:
 print_board(board):
 
