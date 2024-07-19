@@ -3,7 +3,7 @@ Explanation:
 print_board(board):
 
 Prints the Sudoku board. Zeros are replaced with dots for better readability.
-<br>
+<br> <br> <br>
 find_empty_location(board):
 
 Finds an empty location (represented by 0) in the board and returns its coordinates as a tuple (row, col). If no empty location is found, it returns None.
