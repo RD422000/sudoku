@@ -1,25 +1,20 @@
 # sudoku with backtracking algorithm
 Explanation:
 print_board(board):
-
 Prints the Sudoku board. Zeros are replaced with dots for better readability.
-<br> <br> <br>
+<br> <br> 
 find_empty_location(board):
-
 Finds an empty location (represented by 0) in the board and returns its coordinates as a tuple (row, col). If no empty location is found, it returns None.
-<br> is_valid(board, num, pos):
-
+<br> <br> is_valid(board, num, pos):
 Checks if placing num at the position pos is valid according to Sudoku rules:
 Checks the row, column, and 3x3 box to ensure the number is not repeated.
-<br> solve_sudoku(board):
-
+<br><br> solve_sudoku(board):
 Uses the backtracking algorithm to solve the Sudoku puzzle:
 Finds an empty location.
 Tries placing numbers 1 to 9 in the empty location.
 If the number is valid, it places the number and recursively tries to solve the rest of the board.
 If placing the number doesn't lead to a solution, it backtracks and tries the next number.
-<br> if __name__ == "__main__"::
-
+<br><br> if __name__ == "__main__"::
 Initializes a sample Sudoku board.
 Prints the original board.
 Attempts to solve the board and prints the result. If no solution exists, it informs the user.
